@@ -86,7 +86,8 @@ a.button:active {
 
 #landing-text {
   display: flex;
-  flex: 0 1 40vw; /* flex-grow | flex-shrink | flex-basis */
+  flex: 0 1 40vw;
+  /* flex-grow | flex-shrink | flex-basis */
   height: 50vh;
   justify-content: center;
   align-items: center;
@@ -152,4 +153,24 @@ div#images div.caption {
 
 div#images div.caption h3 {
   padding-bottom: 1rem;
+}
+
+
+
+/* Footer section
+====================================================================== */
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  margin: auto;
+  color: var(--grey-color);
+}
+
+footer h3 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+footer p {
+  height: 1.5rem;
 }
