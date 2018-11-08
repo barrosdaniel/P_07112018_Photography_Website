@@ -80,11 +80,11 @@ a.button:active {
 /* Landing section
 ====================================================================== */
 /* Landing text */
-#landing {
+div#landing {
   background-color: var(--landing-background-color);
 }
 
-#landing-text {
+div#landing-text {
   display: flex;
   flex: 0 1 40vw;
   /* flex-grow | flex-shrink | flex-basis */
@@ -117,6 +117,32 @@ div#landing-image {
   height: 50vh;
   flex: 0 1 60vw;
   margin: 0;
+}
+
+
+/* Landscape/Tablet layouts */
+@media (min-width: 500px) {
+  div#landing {
+    display: flex;
+    height: 100%;
+  }
+
+  div#landing-text {
+    height: 100vh;
+  }
+
+  div#landing-image {
+    height: 100vh;
+  }
+}
+
+/* Desktop layouts */
+@media (min-width: 800px) {
+  a.button {
+    padding: 1rem 3rem;
+    max-width: 210px;
+    font-size: 1.5rem;
+  }
 }
 
 
