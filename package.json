@@ -1,0 +1,20 @@
+{
+  "name": "P_07112018_Photography_Website",
+  "version": "1.0.0",
+  "description": "Photography website with HTML5, CSS3 and jQuery",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barrosdaniel/P_07112018_Photography_Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barrosdaniel/P_07112018_Photography_Website/issues"
+  },
+  "homepage": "https://barrosdaniel/github.io/P_07112018_Photography_Website"
+}
